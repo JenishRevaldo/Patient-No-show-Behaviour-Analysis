@@ -29,5 +29,10 @@ This repository contains an analysis of no-show behavior in a dataset consisting
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/medical-appointment-no-show.git
-   cd medical-appointment-no-show
+   git clone https://github.com/JenishRevaldo/Patient-No-show-Behaviour-Analysis.git
+   cd Patient-No-show-Behaviour-Analysis
+
+## Contributions
+Contributions are welcome! If you identify improvements or additional insights, please feel free to open an issue or submit a pull request.
+
+Explore the notebooks in the notebooks/ directory for detailed analyses.
