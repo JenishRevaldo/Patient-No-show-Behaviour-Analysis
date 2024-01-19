@@ -23,6 +23,7 @@ This repository contains an analysis of no-show behavior in a dataset consisting
 - `datasets/`: Contains the dataset used for analysis and the datasets created by me during analysis. *Patient no show* is the file name of raw data.
 - `notebooks/`: Jupyter notebooks with detailed analyses and visualizations.
 - `README.md`: Overview of the repository and analysis goals.
+- `MLP1model.pkl`: Pickle file containing the trained Multilayer Perceptron Model
 
 ## Usage
 
