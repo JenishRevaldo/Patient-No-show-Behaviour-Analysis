@@ -29,7 +29,7 @@ This repository contains an analysis of no-show behavior in a dataset consisting
 
 ## Web Application
 
-The `app.py` script in the `streamlit_app` directory implements a Streamlit web application for real-time patient show up prediction.
+The `app.py` script implements a Streamlit web application for real-time patient show up prediction.
 
 
 ## Getting Started
