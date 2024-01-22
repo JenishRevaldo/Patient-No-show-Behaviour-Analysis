@@ -20,18 +20,42 @@ This repository contains an analysis of no-show behavior in a dataset consisting
 
 ## Repository Structure
 
-- `datasets/`: Contains the dataset used for analysis and the datasets created by me during analysis. *Patient no show* is the file name of raw data.
-- `notebooks/`: Jupyter notebooks with detailed analyses and visualizations.
-- `README.md`: Overview of the repository and analysis goals.
+- `Datasets/`: Contains the dataset used for analysis and the datasets created by me during analysis. *Patient no show* is the file name of raw data.
+- `Notebooks/`: Jupyter notebooks with detailed analyses and visualizations.
 - `MLP1model.pkl`: Pickle file containing the trained Multilayer Perceptron Model
+- `app.py`: Streamlit web application for deployment
+- `requirements.txt`: Text file containing the required libraries
+- `README.md`: Overview of the repository and analysis goals.
 
-## Usage
+## Web Application
 
-1. Clone the repository:
+The `app.py` script in the `streamlit_app` directory implements a Streamlit web application for real-time patient show up prediction.
+
+
+## Getting Started
+
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/JenishRevaldo/Patient-No-show-Behaviour-Analysis.git
    cd Patient-No-show-Behaviour-Analysis
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Explore the Jupyter notebook (`Notebooks/Patient_No_show_Behaviour_Analysis_1.ipynb`) for insights into data analysis and model development.
+
+4. Run the Flask web application:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+   Visit `http://localhost:8501` in your web browser to access the patient show up prediction application.
 
 ## Contributions
 Contributions are welcome! If you identify improvements or additional insights, please feel free to open an issue or submit a pull request.
