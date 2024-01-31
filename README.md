@@ -47,7 +47,7 @@ The `app.py` script implements a Streamlit web application for real-time patient
    pip install -r requirements.txt
    ```
 
-3. Explore the Jupyter notebook (`Notebooks/Patient_No_show_Behaviour_Analysis_1.ipynb`) for insights into data analysis and model development.
+3. Explore the Jupyter notebook (`Notebooks/Patient_No_show_Behaviour_Analysis_1.ipynb`) for insights into data analysis and model development. Also explore other notebooks too.
 
 4. Run the Flask web application:
 
