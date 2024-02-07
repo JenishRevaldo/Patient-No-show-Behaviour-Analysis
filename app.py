@@ -3,7 +3,6 @@ import pandas as pd
 import numpy
 import pickle
 
-
 # Load the original dataset
 original_df = pd.read_csv('Datasets/Patient no show.csv')
 city_stats = pd.read_csv('Datasets/city_stats.csv')
